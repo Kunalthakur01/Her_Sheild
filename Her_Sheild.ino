@@ -9,7 +9,7 @@ SoftwareSerial gsm(9, 10);  // GSM Module (TX, RX)
 SoftwareSerial gps(4, 5);   // GPS Module (TX, RX)
 TinyGPSPlus gpsData;
 
-String phoneNumber = "+919625301534";  // Replace with Parent's Number
+String phoneNumber = "+91XXXXXXXXXX";  // Replace with Parent's Number
 
 void setup() {
     Serial.begin(9600);
